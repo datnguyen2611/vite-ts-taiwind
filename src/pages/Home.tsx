@@ -1,4 +1,13 @@
 const Home = () => {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <div>
+      <iframe
+        src="/src/game/SlashTheHordes/index.html"
+        width="100%"
+        height="500"
+        title="Cocos Game"
+      ></iframe>
+    </div>
+  );
 };
 export default Home;
